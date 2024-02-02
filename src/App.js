@@ -1,12 +1,11 @@
 import Quiz from "./quizapp/Quiz";
 import "./App.css";
+import ProgressBar from "./ProgressBar/ProgressBar";
 
 function App() {
-  return (
-    <>
-      <Quiz />
-    </>
-  );
+  return <>
+    <ProgressBar/>
+  </>;
 }
 
 export default App;
