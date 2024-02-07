@@ -1,10 +1,9 @@
-import { useState } from "react";
-import HookUseMemo from "./Hooks/UseMemo/HookUseMemo";
+import Main from "./GoalCard/Main";
 
 function App() {
   return (
     <>
-      <HookUseMemo />
+      <Main />
     </>
   );
 }
