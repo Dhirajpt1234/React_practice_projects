@@ -1,11 +1,12 @@
-import Quiz from "./quizapp/Quiz";
-import "./App.css";
-import ProgressBar from "./ProgressBar/ProgressBar";
+import { useState } from "react";
+import HookUseMemo from "./Hooks/UseMemo/HookUseMemo";
 
 function App() {
-  return <>
-    <ProgressBar/>
-  </>;
+  return (
+    <>
+      <HookUseMemo />
+    </>
+  );
 }
 
 export default App;
