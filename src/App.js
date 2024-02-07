@@ -1,10 +1,9 @@
-import Quiz from "./quizapp/Quiz";
-import "./App.css";
+import Main from "./GoalCard/Main";
 
 function App() {
   return (
     <>
-      <Quiz />
+      <Main />
     </>
   );
 }
