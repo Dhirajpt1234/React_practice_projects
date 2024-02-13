@@ -1,15 +1,19 @@
-.card-container {
-}
 .card {
-  width: 300px;
-  padding: 20px;
+  width: 270px;
+  /* padding: 0 20px 20px 20px; */
   margin: 20px;
   border-radius: 20px;
   background-color: #f9f9f9;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 35px;
+  z-index: 1000;
 }
 
-.card:before {
+/* .card:before {
   content: "";
   position: absolute;
   top: -15px;
@@ -19,6 +23,12 @@
   background: linear-gradient(135deg, #f9efdb 0%, #ebd9b4 100%);
   border-radius: 20px;
   z-index: -1;
+} */
+
+.remove > button {
+  margin-left: 248px;
+  border: transparent;
+  cursor: pointer;
 }
 
 .heading-container {
@@ -88,4 +98,12 @@
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-weight: bold;
   margin-left: 220px;
+}
+
+.submit-button:hover {
+  cursor: grab;
+}
+
+.submit-button:active {
+  cursor: grabbing;
 }
