@@ -9,9 +9,8 @@ const BUTTON_WRAPPER_STYLES = {
 };
 
 export default function Main() {
-<<<<<<< HEAD
-  return <></>;
-=======
+
+
   const [isOpen, setIsOpen] = useState(0);
   const [modelIndex, setModelIndex] = useState(0);
 
@@ -99,5 +98,5 @@ export default function Main() {
       </div>
     </>
   );
->>>>>>> 2b01892ceb05358b531e12b5b59f295fbe5d485d
+
 }
