@@ -1,10 +1,9 @@
-import Main from "./GoalCard/Main";
-import HookUseRef3 from "./Hooks/UseRef/HookUseRef3";
+import TODOUseReducer from "./Hooks/UseReducer/TODOUseReducer";
 
 function App() {
   return (
     <>
-      <Main />
+      <TODOUseReducer />
     </>
   );
 }
