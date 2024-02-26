@@ -1,19 +1,16 @@
-import React, { useState , ThemeContext } from 'react'
-import Child from './Child'
+import React, { useState } from "react";
+import Child from "./Child";
 
 const Parent = () => {
+  const [theme, setTheme] = useState("light");
 
-    const [theme, setTheme] = useState("light")
+  return (
+    // <ThemeContext.provider value={{ theme, setTheme }} >
 
-    return (
+    <Child />
 
-        <ThemeContext.provider value={{ theme, setTheme }} >
+    // </ThemeContext.provider>
+  );
+};
 
-            <Child />
-
-        </ThemeContext.provider>
-
-    )
-}
-
-export default Parent
+export default Parent;
