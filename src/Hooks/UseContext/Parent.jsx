@@ -7,11 +7,11 @@ const Parent = () => {
 
     return (
 
-        <ThemeContext.provider value={{ theme, setTheme }} >
+        // <ThemeContext.provider value={{ theme, setTheme }} >
 
             <Child />
 
-        </ThemeContext.provider>
+        // </ThemeContext.provider>
 
     )
 }

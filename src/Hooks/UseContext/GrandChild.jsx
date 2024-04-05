@@ -2,7 +2,7 @@ import React, { useContext } from 'react'
 
 const GrandChild = () => {
 
-  const { theme, setTheme } = React.useContext(ThemeContext);
+  // const { theme, setTheme } = React.useContext(ThemeContext);
 
   return (
     <div>
