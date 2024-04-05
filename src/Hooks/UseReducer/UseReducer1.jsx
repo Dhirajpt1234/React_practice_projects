@@ -4,7 +4,7 @@ const ACTIONS = {
   INCREMENT: "increment",
   DECREMENT: "decrement",
   RESET: "reset",
-  ADD_Payload: "addPayload",
+  ADD_PAYLOAD: "addPayload",
 };
 
 const reducer = (count, action) => {
@@ -13,7 +13,7 @@ const reducer = (count, action) => {
       return count + 1;
     case ACTIONS.DECREMENT:
       return count - 1;
-    case ACTIONS.ADD_Payload:
+    case ACTIONS.ADD_PAYLOAD:
       return count + action.Payload.amount;
     case ACTIONS.RESET:
       return 0;
@@ -47,7 +47,7 @@ const UseReducer1 = () => {
 
       <button
         onClick={() => {
-          dispatch({ type: ACTIONS.ADD_Payload, Payload: { amount: 5 } });
+          dispatch({ type: ACTIONS.ADD_PAYLOAD, Payload: { amount: 5 } });
         }}
       >
         Add 5
